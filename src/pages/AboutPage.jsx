@@ -43,7 +43,7 @@ export default function AboutPage() {
         </div>
 
         <div className={styles.right}>
-          <img src="/about1.jpg" alt="Design Philosophy" />
+          <img src={`${import.meta.env.BASE_URL}about1.jpg`} alt="Design Philosophy" />
         </div>
       </section>
 
@@ -67,7 +67,7 @@ export default function AboutPage() {
   </div>
 
   <div className={styles.right}>
-    <img src="/about2.jpg" alt="Sustainable Architecture" />
+    <img src={`${import.meta.env.BASE_URL}about2.jpg`} alt="Sustainable Architecture" />
   </div>
 
 </section>
@@ -92,7 +92,7 @@ export default function AboutPage() {
   </div>
 
   <div className={styles.right}>
-    <img src="/about3.jpg" alt="Our Team" />
+    <img src={`${import.meta.env.BASE_URL}about3.jpg`} alt="Our Team" />
   </div>
 
 </section>
@@ -100,4 +100,3 @@ export default function AboutPage() {
     </div>
   );
 }
-
