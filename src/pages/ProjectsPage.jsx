@@ -1,6 +1,7 @@
 import Header from "../components/Header";
 import styles from "./ProjectsPage.module.css";
 import { useEffect, useRef, useState } from "react";
+import { Link } from "react-router-dom";
 
 /* ─────────────────────────────────────────
    DATA
@@ -627,7 +628,7 @@ export default function ProjectsPage() {
       <div className={styles.footerCta}>
         <p className={styles.footerCtaEyebrow}>Have a project in mind?</p>
         <h2 className={styles.footerCtaHeading}>Let's build your vision.</h2>
-        <a href="/contact" className={styles.footerCtaBtn}>Contact Us →</a>
+        <Link to="/contact" className={styles.footerCtaBtn}>Contact Us →</Link>
       </div>
 
       {/* ── DETAIL PANEL ── */}
